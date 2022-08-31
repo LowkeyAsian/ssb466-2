@@ -1,0 +1,318 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	color: darkcyan;
+	transition: 0.5s;
+	
+}
+
+.header {
+	width: 100%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+.container {
+	width: 1140px;
+	margin: auto;
+	background: black;
+
+}
+.navbar {
+	display: flex;
+	justify-content: space-between;
+
+}
+.menu-item li {
+	list-style: none;
+	display: inline-block;
+   margin-left: 22px;
+   margin-right: 22px;
+    margin-top: 16px;
+    ;
+
+}
+
+.menu-item li a {
+	font-size: 17px;
+}
+.h-btn Button {
+	background: black;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 24px;
+	padding-left: 24px;
+	font size: 18px;
+	border-radius: 8px;
+}
+.h-btn{
+	    margin-top: 6px;
+}
+.h-btn Button:hover {
+	background: red;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 24px;
+	padding-left: 24px;
+	border-style: dotted;
+	font size: 18px;
+	transition: 0.5s;
+	border-radius: 8px;
+
+}
+
+.container1 {
+	width: 1140px;
+	margin: auto;
+	
+
+}
+.banner {
+	width: 100%;
+}
+.b-content {
+	 display: flex;
+
+}
+.b-left {
+	padding-top: 100px;
+	padding-left: 30px;
+	padding-right: 100px;
+}
+
+.b-left Button {
+	background-color: Black;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 24px;
+	padding-left: 24px;
+	font size: 18px;
+	border-radius: 8px;
+
+}
+
+.b-left Button:hover {
+	background-color: red;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 24px;
+	padding-left: 24px;
+	font size: 18px;
+	transition: .5s;
+	border-style: dotted;
+	border-radius: 8px;
+
+}
+
+.b-left h1 {
+	color: Black;
+	font-family: cursive;
+	font-size: 60px;
+}
+.b-left h1:hover {
+	color: red;
+	font-family: cursive;
+	font-size: 60px;
+	transition: .7s;
+}
+
+.b-left p {
+	color: Black;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+.b-right {
+	padding-top: 47px;
+	padding-left: 30px;
+	padding-right: 100px;
+}
+.banner2 {
+	width: 100%;
+
+}
+
+.b-content2 {
+	display: flex;
+}
+
+.b2-right1 {
+	padding-top: 100px;
+	padding-left: 30px;
+	padding-right: 100px;
+}
+
+.b2-right1 Button {
+	background-color: Black;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 24px;
+	padding-left: 24px;
+	font size: 18px;
+	border-radius: 8px;
+}
+
+.b2-right1 Button:hover {
+	background-color: skyblue;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 24px;
+	padding-left: 24px;
+	font size: 18px;
+	transition: .5s;
+	border-style: dotted;
+	border-radius: 8px;
+}
+.b2-left1  {
+      padding-top: 200px;
+	padding-left: 30px;
+	padding-right: 100px;
+}
+.b2-right1 {
+	padding-top: 250px;
+	padding-left: 30px;
+	padding-right: 100px;
+}
+
+.b2-right1 h1 {
+	color: Black;
+	font-family: cursive;
+	font-size: 40px;
+	font-weight: bold;
+
+}
+
+.b2-right1 h1:hover {
+	color: skyblue;
+	font-family: cursive;
+	font-size: 40px;
+	transition: .5s;
+}
+
+.b2-right1 p {
+	color: Black;
+	font-family: sans-serif;
+	font-size: 16px;
+
+}
+
+
+
+
+.b-content3 {
+	 display: flex;
+
+}
+.b-left2 {
+	padding-top: 260px;
+	padding-left: 30px;
+	padding-right: 100px;
+}
+
+.b-left2 Button {
+	background-color: Black;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 24px;
+	padding-left: 24px;
+	font size: 18px;
+	border-radius: 8px;
+
+}
+
+.b-left2 Button:hover {
+	background-color: green;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 24px;
+	padding-left: 24px;
+	font size: 18px;
+	transition: .5s;
+	border-style: dotted;
+
+}
+
+.b-left2 h1 {
+	color: Black;
+	font-family: cursive;
+	font-size: 40px;
+}
+
+.b-left2 h1:hover {
+	color: green;
+	font-family: cursive;
+	font-size: 40px;
+	transition: .5s;
+}
+
+.b-left2 p {
+	color: Black;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+.b-right2 {
+	padding-top: 200px;
+	padding-left: 30px;
+	padding-right: 100px;
+}
+.f-content {
+	display: flex;
+}
+.footer {
+	width: 100%;
+
+}
+
+.f-item {
+	flex-basis: 25%;
+}
+
+.f-item h4 {
+  color: black;
+  font-size: 18px;
+  margin-bottom: 16px;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+.f-item p {
+	color : #91a3bb;
+	font-size: 16px;
+	margin-bottom: 200px;
+	
+    line-height: 1.6;
+
+}
+
+.f-item ul li{
+	list-style: none;
+	margin-left: 20px;
+    margin-right: 20px;
+    color : #91a3bb;
+
+
+}
+.f-item ul li {
+	font-size: 18px;
+	  line-height: 1.6;
+}
+
+.f-item ul li :hover {
+    margin-left: 12px ;
+       transition: .5s;
+}
