@@ -1,0 +1,545 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+body {
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Poppins', sans-serif;
+}
+a, a:hover {
+text-decoration: none;
+}
+li {
+list-style: none;
+}
+.container {
+width: 1140px;
+margin: auto;
+}
+.row{
+width: 100%;
+float: left;
+}
+.col-lg-12 {
+width: 100%;
+float: left;
+}
+.col-lg-3 {
+width: 25%;
+float: left;
+}
+.cl5 {
+height: 400px;
+background: #D4AA2C;
+}
+.col-lg-9 {
+width: 75%;
+float: left;
+}
+
+.col-lg-6 {
+width: 50%;
+float: left;
+}
+
+.col-lg-4 {
+width: 33.33%;
+float: left;
+}
+/*header code start*/
+.header {
+width: 100%;
+float: left;
+padding-top: 10px;
+padding-bottom: 10px;
+border-bottom: 2px solid #eee ;
+}
+.header .logo {
+display: block;
+width: 100%;
+}
+.header .navbar {
+width: 100%;
+float: left;
+text-align: right;
+}
+.header .navbar li {
+display: inline-block;
+margin-top: 8px;
+}
+.header .navbar li a {
+font-size: 14px;
+font-weight: 500;
+color: #0B2253;
+margin-left: 20px;
+text-transform: capitalize;
+}
+.header .navbar li a:hover, .header .navbar li a:focus {
+color : #008AFF;
+transition: .5s;
+}
+/*banner1*/
+.online-business {
+width: 100%;
+float: left;
+padding-top: 70px;
+padding-bottom: 70px;
+text-align: center;
+}
+.online-business h1 {
+font-size: 60px;
+line-height: 80px;
+color: #0B2253;
+margin-bottom: 10px;
+}
+.online-business h1 span {
+color: #36A3FF;
+
+}
+.online-business p {
+font-size: 14px;
+line-height: 24px;
+color: #0B2253;
+}
+.online-business .banner-img {
+width: 55%;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+/*banner2*/
+.banner2 {
+width: 100%;
+float: left;
+padding: 30px 0px 80px;
+}
+.banner2 .left-text{
+width: 100%;
+float: left;
+text-align: right;
+}
+.banner2 .left-text h3 {
+font-size:47px;
+line-height: 57px;
+color: darkred;
+margin : 0px 0px 5px 15px ;
+}
+.banner2 .right-text{
+width: 100%;
+float: left;
+
+}
+.banner2 .right-text h3 {
+font-size:47px;
+line-height: 57px;
+color: #0B2253 ;
+margin : 0px 0px 5px 15px ;
+}
+.banner2 .left-text h3:hover {
+text-decoration: underline;
+color: skyblue;
+transition: .7s;
+}
+.banner2 .left-text p {
+font-size:14px;
+line-height: 24px;
+color: #0B2253;
+margin : 0px 0px 10px 15px ;
+}
+.banner3 {
+width: 100%;
+float: left;
+padding : 0px 0px 80px;
+}
+
+.banner3 .inner-banner {
+width: 90%;
+padding-top: 40px ;
+float: left;
+margin: 0px 15px ;
+}
+.inner-banner img {
+width: 100%;
+height: 180px;
+}
+.banner3 .inner-banner p {
+text-align: center;
+font-size: 14px;
+line-height: 24px;
+color: #0B2253;
+}
+.banner3 .inner-banner h4 {
+text-align: center;
+font-size:16px;
+line-height: 26px;
+color: #0B2253 ;
+margin: 0px 0px 10px ;
+}
+.cl1 {
+height: 300px;
+background: #FDEBED;
+}
+.cl1:hover, .cl1:focus {
+height: 340px;
+transition: .4s;
+}
+.cl2 {
+height: 300px;
+background: #EBF9F4;
+}
+.cl2:hover , .cl2:focus{
+height: 340px;
+transition: .4s;
+}
+.cl3:hover, .cl3:focus {
+height: 340px;
+transition: .4s;
+}
+.cl3 {
+height: 300px;
+background: #FFF7E8;
+}
+/*footer css*/
+.footer {
+width: 100%;
+float: left;
+padding: 30px 0px;
+background: #008AFF;
+}
+.footer p {
+font-size: 14px;
+text-align: center;
+line-height: 24px;
+color: #fff;
+}
+.footer p a {
+font-weight: 700;
+color: #fff;
+text-transform: capitalize;
+letter-spacing: 2px;
+}
+.footer p a:hover {
+color: darkred;
+text-transform: uppercase;
+transition: .7s;
+}
+/************************
+responsive css media query
+**********************/
+@media (min-width:  279px) and (max-width: 319px) {
+/*css code starts*/
+.container {
+width: 90%;
+margin: auto;
+}
+.row{
+width: 100%;
+float: left;
+}
+.col-lg-12 {
+width: 100%;
+float: left;
+}
+.col-lg-3 {
+width: 100%%;
+float: left;
+}
+.cl5 {
+height: 400px;
+background: #D4AA2C;
+}
+.col-lg-9 {
+width: 100%;
+float: left;
+}
+
+.col-lg-4 {
+width: 100%;
+float: left;
+}
+
+.col-lg-6 {
+width: 100%;
+float: left;
+}
+
+.header .navbar li a {
+	    margin: 4px 0px 0px 7px;
+    font-size: 11px;
+}
+
+.online-business h1 {
+	font-size:  28px;
+	line-height: 38px;
+}
+.banner2 .right-text h3 {
+	font-size:  26px;
+	line-height: 36px;
+}
+.inner-banner {
+
+    margin: 0px 0px 20px;
+    padding: 10px 0px;
+    width: 85%;
+}
+/*css code ends*/
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  .container {
+width: 90%;
+margin: auto;
+}
+.row{
+width: 100%;
+float: left;
+}
+.col-lg-12 {
+width: 100%;
+float: left;
+}
+.col-lg-3 {
+width: 100%%;
+float: left;
+}
+.cl5 {
+height: 400px;
+background: #D4AA2C;
+}
+.col-lg-9 {
+width: 100%;
+float: left;
+}
+
+.col-lg-4 {
+width: 100%;
+float: left;
+}
+
+.col-lg-6 {
+width: 100%;
+float: left;
+}
+
+.header .navbar li a {
+	    margin: 4px 0px 0px 7px;
+    font-size: 11px;
+}
+
+.online-business h1 {
+	font-size:  28px;
+	line-height: 38px;
+}
+.banner2 .right-text h3 {
+	font-size:  26px;
+	line-height: 36px;
+}
+.inner-banner {
+
+    margin: 0px 0px 20px;
+    padding: 10px 0px;
+    width: 85%;
+}
+}
+
+/* 
+  ##Device = Tablets, Ipads 
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+  
+  /* CSS */
+  .container {
+width: 90%;
+margin: auto;
+}
+.row{
+width: 100%;
+float: left;
+}
+.col-lg-12 {
+width: 100%;
+float: left;
+}
+.col-lg-3 {
+width: 100%%;
+float: left;
+}
+.cl5 {
+height: 400px;
+background: #D4AA2C;
+}
+.col-lg-9 {
+width: 100%;
+float: left;
+}
+
+.col-lg-4 {
+width: 100%;
+float: left;
+}
+
+.col-lg-6 {
+width: 100%;
+float: left;
+}
+
+.header .navbar li a {
+	    margin: 4px 0px 0px 7px;
+    font-size: 11px;
+}
+
+.online-business h1 {
+	font-size:  28px;
+	line-height: 38px;
+}
+.banner2 .right-text h3 {
+	font-size:  26px;
+	line-height: 36px;
+}
+.inner-banner {
+
+    margin: 0px 0px 20px;
+    padding: 10px 0px;
+    width: 85%;
+}
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  .container {
+width: 90%;
+margin: auto;
+}
+.row{
+width: 100%;
+float: left;
+}
+.col-lg-12 {
+width: 100%;
+float: left;
+}
+.col-lg-3 {
+width: 100%%;
+float: left;
+}
+.cl5 {
+height: 400px;
+background: #D4AA2C;
+}
+.col-lg-9 {
+width: 100%;
+float: left;
+}
+
+.col-lg-4 {
+width: 100%;
+float: left;
+}
+
+.col-lg-6 {
+width: 100%;
+float: left;
+}
+
+.header .navbar li a {
+	    margin: 4px 0px 0px 7px;
+    font-size: 11px;
+}
+
+.online-business h1 {
+	font-size:  28px;
+	line-height: 38px;
+}
+.banner2 .right-text h3 {
+	font-size:  26px;
+	line-height: 36px;
+}
+.inner-banner {
+
+    margin: 0px 0px 20px;
+    padding: 10px 0px;
+    width: 85%;
+}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .container {
+width: 90%;
+margin: auto;
+}
+.row{
+width: 100%;
+float: left;
+}
+.col-lg-12 {
+width: 100%;
+float: left;
+}
+.col-lg-3 {
+width: 100%%;
+float: left;
+}
+.cl5 {
+height: 400px;
+background: #D4AA2C;
+}
+.col-lg-9 {
+width: 100%;
+float: left;
+}
+
+.col-lg-4 {
+width: 100%;
+float: left;
+}
+
+.col-lg-6 {
+width: 100%;
+float: left;
+}
+
+.header .navbar li a {
+	    margin: 4px 0px 0px 7px;
+    font-size: 11px;
+}
+
+.online-business h1 {
+	font-size:  28px;
+	line-height: 38px;
+}
+.banner2 .right-text h3 {
+	font-size:  26px;
+	line-height: 36px;
+}
+.inner-banner {
+
+    margin: 0px 0px 20px;
+    padding: 10px 0px;
+    width: 85%;
+}
+}
